@@ -1,0 +1,62 @@
+# Self-Healing Workflow Map
+
+This map turns self-healing concepts into an operational workflow for remediation and automation.
+
+## Purpose
+
+Use this map to link incident detection, automated response, approval controls, and validation.
+
+## Workflow Stages
+
+### 1. Detect
+
+- anomaly or incident identification
+- event correlation
+- severity classification
+
+### 2. Decide
+
+- determine if automation is allowed
+- identify remediation path
+- confirm approval or guardrail requirements
+
+### 3. Remediate
+
+- execute automated action
+- restart, scale, or reconfigure as needed
+- capture action metadata
+
+### 4. Validate
+
+- confirm service recovery
+- check success criteria
+- reopen if remediation failed
+
+### 5. Learn
+
+- record outcome
+- update automation rules
+- identify tuning opportunities
+
+## Example Workflow View
+
+| Trigger | Automation | Validation |
+| --- | --- | --- |
+| Service degradation | Restart or scale action | Health check passes |
+| Queue saturation | Rebalance workers | Queue depth normalizes |
+| Failed dependency | Fallback path | User flow restored |
+| Alert storm | Suppress and aggregate | Noise reduced |
+
+## Recommended Actions
+
+- keep automation bounded by guardrails
+- require validation after every automated action
+- track manual override cases
+- review workflow outcomes regularly
+
+## Related Artifacts
+
+- [Self-Healing Strategy](../docs/self-healing-strategy.md)
+- [Automation Governance](../docs/automation-governance.md)
+- [Incident Response Workflow](../workflows/incident-response-workflow.md)
+- [Auto-Remediation Workflow](../workflows/auto-remediation-workflow.md)

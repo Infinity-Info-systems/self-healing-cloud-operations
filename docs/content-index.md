@@ -39,4 +39,3 @@ This index organizes the repo into a front door for self-healing operations, aut
 ## Shared Direction
 
 Use the same section structure as the other core repos so automation content stays reusable and easy to extend.
-

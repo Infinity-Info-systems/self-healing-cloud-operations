@@ -19,6 +19,14 @@ This repository helps teams define and manage:
 - operational resilience
 - self-healing playbooks
 
+## How To Use This Repo
+
+1. Read the framework overview and self-healing strategy.
+2. Review the governance model before introducing automation.
+3. Use the workflow maps and playbooks to operationalize remediation.
+4. Apply the templates to review automation safely.
+5. Track outcomes in the dashboard and research notes.
+
 ## Core Content
 
 - [Self-Healing Workflow Map](automation-models/self-healing-workflow-map.md)
@@ -60,10 +68,3 @@ This repository helps teams define and manage:
 - [Predictive Reliability Models](../predictive-reliability-models/README.md)
 - [AI-Driven Observability Framework](../ai-driven-observability-framework/README.md)
 - [SRE Reliability Models](../sre-reliability-models/README.md)
-
-## Start Here
-
-1. Read the framework overview.
-2. Review the self-healing strategy and automation governance.
-3. Use the playbooks and workflows to operationalize remediation.
-4. Expand dashboards and research evidence next.

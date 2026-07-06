@@ -3,6 +3,7 @@
 ## Purpose
 
 This index organizes the repo into a front door for self-healing operations, auto-remediation, and automation governance.
+Use it to move from strategy to the exact workflow or template needed to review automation safely.
 
 ## Entry Points
 
@@ -36,6 +37,16 @@ This index organizes the repo into a front door for self-healing operations, aut
 - [Research Roadmap](../evidence/research-roadmap.md)
 - [Research Links](../publications/research-links.md)
 
+## Reading Order
+
+1. Framework overview
+2. Self-healing strategy
+3. Automation governance
+4. Workflow map
+5. Playbooks and validation templates
+6. KPI dashboard and research notes
+
 ## Shared Direction
 
 Use the same section structure as the other core repos so automation content stays reusable and easy to extend.
+Keep the pages readable for operations teams and specific enough for governance review.

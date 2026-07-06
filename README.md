@@ -5,6 +5,7 @@
 This repository contains the operating model for self-healing cloud operations, auto-remediation, and resilient incident response.
 
 It focuses on event correlation, remediation workflows, automation governance, and operational resilience.
+It is intended to help teams automate recovery safely, with validation and human oversight where needed.
 
 ## Why It Matters
 
@@ -18,6 +19,17 @@ This repository helps teams define and manage:
 - automation governance
 - operational resilience
 - self-healing playbooks
+- validation discipline
+- recovery learning loops
+- safe automation design
+
+## Content Model
+
+This repository works best when the pages are grouped into three layers:
+
+- strategy and operating guidance
+- workflows and automation models
+- templates, dashboards, and research notes
 
 ## How To Use This Repo
 
@@ -26,6 +38,7 @@ This repository helps teams define and manage:
 3. Use the workflow maps and playbooks to operationalize remediation.
 4. Apply the templates to review automation safely.
 5. Track outcomes in the dashboard and research notes.
+6. Keep terminology consistent across workflows, templates, and dashboards.
 
 ## Core Content
 
@@ -61,6 +74,10 @@ This repository helps teams define and manage:
 - [Bibliography](references/bibliography.md)
 - [Research Roadmap](evidence/research-roadmap.md)
 - [Research Links](publications/research-links.md)
+
+## Operating Principle
+
+Automation should reduce recovery time without hiding risk or making failures harder to understand.
 
 ## Ecosystem Links
 

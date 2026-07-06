@@ -17,3 +17,7 @@ The event correlation model groups related signals so teams can understand the r
 - suspected root cause area
 - correlated event set
 - confidence level
+
+## Use
+
+Use the model to help teams see when multiple signals are pointing to the same underlying issue.

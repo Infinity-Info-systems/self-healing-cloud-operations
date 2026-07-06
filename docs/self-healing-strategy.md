@@ -11,6 +11,7 @@ The strategy defines how the organization will use automation to shorten detecti
 - validate every automated action
 - learn from failures and overrides
 - measure business impact, not just technical speed
+- start with the most repeatable recovery patterns
 
 ## Strategy Questions
 
@@ -25,3 +26,7 @@ The strategy defines how the organization will use automation to shorten detecti
 - guardrail design
 - validation criteria
 - improvement roadmap
+
+## Strategy Rule
+
+If an automated action cannot be validated and explained, it should not be promoted into the main recovery path.

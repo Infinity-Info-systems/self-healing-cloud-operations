@@ -11,6 +11,7 @@ Incident remediation describes how detected issues are resolved, verified, and c
 - execute the response
 - validate service recovery
 - record learning
+- confirm rollback path if needed
 
 ## Questions To Ask
 
@@ -24,3 +25,7 @@ Incident remediation describes how detected issues are resolved, verified, and c
 - remediation record
 - validation evidence
 - improvement actions
+
+## Outcome
+
+Remediation should end with the service restored, the result validated, and the learning captured for future prevention.

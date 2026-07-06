@@ -18,3 +18,7 @@ Use this playbook to guide teams through self-healing operations from detection 
 - remediate
 - validate
 - learn
+
+## Playbook Use
+
+Use this playbook to keep the recovery path safe, accountable, and continuously improving.

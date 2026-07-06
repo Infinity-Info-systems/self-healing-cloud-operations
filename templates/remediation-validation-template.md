@@ -12,3 +12,8 @@
 - metric normalized
 - rollback available
 - learning recorded
+- owner confirmed
+
+## Validation Rule
+
+If the remediation cannot be validated, it should not be considered complete.

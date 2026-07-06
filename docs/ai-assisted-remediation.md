@@ -10,6 +10,7 @@ AI-assisted remediation uses models or decision support to recommend or trigger 
 - response recommendation
 - remediation prioritization
 - alert aggregation
+- response enrichment
 
 ## Design Guidance
 
@@ -23,3 +24,7 @@ AI-assisted remediation uses models or decision support to recommend or trigger 
 - accuracy notes
 - override records
 - validation results
+
+## Use
+
+Use this page when decision support can help the team choose the right recovery action faster, but the final decision still needs control.

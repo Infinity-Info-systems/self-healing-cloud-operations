@@ -11,6 +11,7 @@ Operational resilience ensures automation improves recovery without creating new
 - service validation
 - escalation handling
 - recovery confidence
+- bounded failure modes
 
 ## Evidence To Collect
 
@@ -18,3 +19,7 @@ Operational resilience ensures automation improves recovery without creating new
 - fallback procedures
 - recovery test notes
 - exception logs
+
+## Use
+
+Operational resilience is strongest when automation improves recovery without reducing visibility or control.

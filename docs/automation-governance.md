@@ -11,6 +11,8 @@ Automation governance ensures remediation automation is controlled, observable, 
 - require validation after automation
 - track manual overrides
 - keep exception handling visible
+- define rollback expectations
+- limit high-risk automation by default
 
 ## Governance Questions
 
@@ -25,3 +27,7 @@ Automation governance ensures remediation automation is controlled, observable, 
 - approval records
 - override logs
 - review notes
+
+## Governance Outcome
+
+Governance should make automation safer to use and easier to trust, not harder to operate.

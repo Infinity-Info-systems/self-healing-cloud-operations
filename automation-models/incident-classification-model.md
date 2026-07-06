@@ -17,3 +17,7 @@ This model classifies incidents so the response path can match severity, scope, 
 - severity level
 - response path
 - approval requirement
+
+## Use
+
+Use this model to make response choices more consistent and to keep high-risk automation from being triggered too early.

@@ -25,6 +25,7 @@ Use this map to link incident detection, automated response, approval controls, 
 - execute automated action
 - restart, scale, or reconfigure as needed
 - capture action metadata
+- keep manual override available
 
 ### 4. Validate
 
@@ -53,6 +54,7 @@ Use this map to link incident detection, automated response, approval controls, 
 - require validation after every automated action
 - track manual override cases
 - review workflow outcomes regularly
+- keep the map aligned with the governed automation catalog
 
 ## Related Artifacts
 

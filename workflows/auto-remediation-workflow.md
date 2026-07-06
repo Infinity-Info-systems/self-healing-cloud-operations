@@ -16,3 +16,4 @@ The auto-remediation workflow describes how safe automated responses execute and
 
 - keep the workflow bounded by guardrails
 - preserve rollback and manual override options
+- keep approval and execution decisions visible

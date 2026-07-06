@@ -12,3 +12,10 @@
 - is it effective?
 - is validation complete?
 - should it remain approved?
+
+## Review Outcome
+
+- approve
+- approve with conditions
+- pause
+- retire

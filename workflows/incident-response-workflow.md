@@ -16,3 +16,4 @@ The incident response workflow connects detection, triage, remediation, and post
 
 - keep ownership explicit
 - record validation evidence
+- connect incident outcomes back to the remediation backlog

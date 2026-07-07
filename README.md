@@ -6,6 +6,7 @@ This repository contains the operating model for self-healing cloud operations, 
 
 It focuses on event correlation, remediation workflows, automation governance, and operational resilience.
 It is intended to help teams automate recovery safely, with validation and human oversight where needed.
+The goal is not just faster remediation, but a more predictable operating posture across incidents, automation, and learning loops.
 
 ## Why It Matters
 
@@ -22,6 +23,9 @@ This repository helps teams define and manage:
 - validation discipline
 - recovery learning loops
 - safe automation design
+- reduced manual recovery effort
+- clearer ownership for automated actions
+- stronger evidence for post-incident review
 
 ## Content Model
 
@@ -39,6 +43,7 @@ This repository works best when the pages are grouped into three layers:
 4. Apply the templates to review automation safely.
 5. Track outcomes in the dashboard and research notes.
 6. Keep terminology consistent across workflows, templates, and dashboards.
+7. Review which recovery actions are safe to automate and which need approval.
 
 ## Core Content
 
@@ -78,6 +83,7 @@ This repository works best when the pages are grouped into three layers:
 ## Operating Principle
 
 Automation should reduce recovery time without hiding risk or making failures harder to understand.
+Every automated action should be observable, reversible where practical, and validated against a known outcome.
 
 ## Ecosystem Links
 
@@ -85,3 +91,12 @@ Automation should reduce recovery time without hiding risk or making failures ha
 - [Predictive Reliability Models](../predictive-reliability-models/README.md)
 - [AI-Driven Observability Framework](../ai-driven-observability-framework/README.md)
 - [SRE Reliability Models](../sre-reliability-models/README.md)
+
+## Executive Takeaway
+
+Use this repo when your operations team needs faster recovery without losing control.
+It helps answer:
+
+- What should auto-remediate?
+- What must still require human review?
+- How do we prove the action was safe and effective?

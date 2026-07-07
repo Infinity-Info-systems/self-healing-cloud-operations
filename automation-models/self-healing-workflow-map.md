@@ -1,10 +1,12 @@
 # Self-Healing Workflow Map
 
 This map turns self-healing concepts into an operational workflow for remediation and automation.
+It gives the team one shared route for recovery logic, so automation decisions are easier to govern and improve.
 
 ## Purpose
 
 Use this map to link incident detection, automated response, approval controls, and validation.
+Use it to decide where a workflow should remain manual and where automation is justified.
 
 ## Workflow Stages
 
@@ -55,6 +57,10 @@ Use this map to link incident detection, automated response, approval controls, 
 - track manual override cases
 - review workflow outcomes regularly
 - keep the map aligned with the governed automation catalog
+
+## Outcome
+
+The map helps teams move faster by making every recovery path explicit, measurable, and easier to review.
 
 ## Related Artifacts
 

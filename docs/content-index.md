@@ -5,6 +5,7 @@
 This index organizes the repo into a front door for self-healing operations, auto-remediation, and automation governance.
 Use it to move from strategy to the exact workflow or template needed to review automation safely.
 The order is intentionally arranged so strategy leads into workflows and then into reusable operational artifacts.
+The order is intentionally arranged so strategy leads into workflows and then into reusable operational artifacts.
 
 ## Entry Points
 
@@ -51,4 +52,5 @@ The order is intentionally arranged so strategy leads into workflows and then in
 
 Use the same section structure as the other core repos so automation content stays reusable and easy to extend.
 Keep the pages readable for operations teams and specific enough for governance review.
+If a page does not help someone diagnose, decide, or validate recovery, move the detail into the most relevant workflow or template.
 If a page does not help someone diagnose, decide, or validate recovery, move the detail into the most relevant workflow or template.

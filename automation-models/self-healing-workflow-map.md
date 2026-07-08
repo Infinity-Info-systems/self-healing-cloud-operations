@@ -50,6 +50,16 @@ Use it to decide where a workflow should remain manual and where automation is j
 | Failed dependency | Fallback path | User flow restored |
 | Alert storm | Suppress and aggregate | Noise reduced |
 
+## Figure
+
+```mermaid
+flowchart LR
+  A[Detect] --> B[Decide]
+  B --> C[Remediate]
+  C --> D[Validate]
+  D --> E[Learn]
+```
+
 ## Recommended Actions
 
 - keep automation bounded by guardrails
@@ -57,6 +67,10 @@ Use it to decide where a workflow should remain manual and where automation is j
 - track manual override cases
 - review workflow outcomes regularly
 - keep the map aligned with the governed automation catalog
+
+## Use
+
+Use this map as the shared route for recovery logic before writing a playbook or workflow.
 
 ## Outcome
 

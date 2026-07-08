@@ -5,6 +5,7 @@
 This repository gives teams a practical model for detecting issues, classifying incidents, and safely automating recovery actions.
 It turns recovery automation into a governed operating practice.
 The framework is designed to reduce recovery time while preserving explainability, auditability, and trust.
+The framework is also intended to make the self-healing story visible from the parent MCGR page and related ecosystem pages.
 
 ## What It Covers
 
@@ -45,6 +46,15 @@ When used consistently, the framework shortens recovery time while preserving ex
 ## Practical Use
 
 Use this framework when the team wants faster recovery without losing control over how automation behaves.
+
+## How To Read It
+
+Start with the strategy page, then move into workflow maps and automation governance.
+That sequence keeps the focus on safe recovery design before implementation details.
+
+## Result
+
+When used consistently, the framework shortens recovery time while preserving explainability, auditability, and trust.
 
 ## Outputs
 

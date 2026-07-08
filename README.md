@@ -7,6 +7,7 @@ This repository contains the operating model for self-healing cloud operations, 
 It focuses on event correlation, remediation workflows, automation governance, and operational resilience.
 It is intended to help teams automate recovery safely, with validation and human oversight where needed.
 The goal is not just faster remediation, but a more predictable operating posture across incidents, automation, and learning loops.
+The repository should also be easy to reference from the parent MCGR page so the operations library is visible as part of the larger ecosystem.
 
 ## Why It Matters
 
@@ -26,6 +27,14 @@ This repository helps teams define and manage:
 - reduced manual recovery effort
 - clearer ownership for automated actions
 - stronger evidence for post-incident review
+
+## Where This Fits In The Ecosystem
+
+- [MCGR Framework](../MCGR-Framework/README.md)
+- [MCGR Public Page](../MCGR-Framework/README.md#featured-research-spotlight)
+- [Predictive Reliability Models](../predictive-reliability-models/README.md)
+- [AI-Driven Observability Framework](../ai-driven-observability-framework/README.md)
+- [SRE Reliability Models](../sre-reliability-models/README.md)
 
 ## Content Model
 
@@ -84,6 +93,16 @@ This repository works best when the pages are grouped into three layers:
 
 Automation should reduce recovery time without hiding risk or making failures harder to understand.
 Every automated action should be observable, reversible where practical, and validated against a known outcome.
+
+## Quick View
+
+| Operating Area | What It Controls | Typical Artifact |
+| --- | --- | --- |
+| Detection | What should trigger a response | Event correlation model |
+| Decision | Whether automation is allowed | Automation governance |
+| Remediation | What action is taken | Remediation workflow |
+| Validation | How recovery is confirmed | Validation template |
+| Learning | How the system improves | KPI dashboard |
 
 ## Ecosystem Links
 

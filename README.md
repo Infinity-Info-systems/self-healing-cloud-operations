@@ -104,6 +104,13 @@ Every automated action should be observable, reversible where practical, and val
 | Validation | How recovery is confirmed | Validation template |
 | Learning | How the system improves | KPI dashboard |
 
+## Codebase Direction
+
+- use `src/` as the workflow registry and reporting layer
+- keep the Markdown docs as the operating model and narrative layer
+- treat each playbook as a contract for a code-backed workflow
+- keep validation and guardrails alongside the executable logic
+
 ## Ecosystem Links
 
 - [MCGR-Framework](../MCGR-Framework/README.md)

@@ -5,7 +5,17 @@
 This index organizes the repo into a front door for self-healing operations, auto-remediation, and automation governance.
 Use it to move from strategy to the exact workflow or template needed to review automation safely.
 The order is intentionally arranged so strategy leads into workflows and then into reusable operational artifacts.
-The order is intentionally arranged so strategy leads into workflows and then into reusable operational artifacts.
+
+## Recommended Reading Path
+
+| Step | Page | Why |
+| --- | --- | --- |
+| 1 | Framework Overview | Understand the self-healing model |
+| 2 | Self-Healing Strategy | Define where automation belongs |
+| 3 | Automation Governance | Set the control rules |
+| 4 | Workflow Map | See the recovery path |
+| 5 | Playbooks and validation templates | Operationalize the response |
+| 6 | KPI dashboard and research notes | Track outcomes and learning |
 
 ## Entry Points
 
@@ -53,4 +63,12 @@ The order is intentionally arranged so strategy leads into workflows and then in
 Use the same section structure as the other core repos so automation content stays reusable and easy to extend.
 Keep the pages readable for operations teams and specific enough for governance review.
 If a page does not help someone diagnose, decide, or validate recovery, move the detail into the most relevant workflow or template.
-If a page does not help someone diagnose, decide, or validate recovery, move the detail into the most relevant workflow or template.
+
+## Shortcut View
+
+| Need | Best Starting Point |
+| --- | --- |
+| Decide what to automate | Automation Governance |
+| Prepare a remediation path | Auto-Remediation Playbook |
+| Validate recovery | Remediation Validation Template |
+| Measure improvement | Self-Healing KPI Dashboard |

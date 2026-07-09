@@ -68,6 +68,20 @@ flowchart LR
 - review workflow outcomes regularly
 - keep the map aligned with the governed automation catalog
 
+## Workflow Table
+
+| Stage | Owner | Output |
+| --- | --- | --- |
+| Detect | Observability / incident lead | Correlated event |
+| Decide | Operations lead | Approved path |
+| Remediate | Automation runner | Recovery action |
+| Validate | Service owner | Recovery confirmation |
+| Learn | Platform / ops lead | Tuning or backlog item |
+
+## Workflow Rule
+
+Automation should not be considered complete until the action has been validated and the outcome has been recorded.
+
 ## Use
 
 Use this map as the shared route for recovery logic before writing a playbook or workflow.

@@ -7,6 +7,16 @@ It turns recovery automation into a governed operating practice.
 The framework is designed to reduce recovery time while preserving explainability, auditability, and trust.
 The framework is also intended to make the self-healing story visible from the parent MCGR page and related ecosystem pages.
 
+## Self-Healing Flow
+
+```mermaid
+flowchart LR
+    A["Detect"] --> B["Decide"]
+    B --> C["Remediate"]
+    C --> D["Validate"]
+    D --> E["Learn"]
+```
+
 ## What It Covers
 
 - event correlation
@@ -63,3 +73,17 @@ When used consistently, the framework shortens recovery time while preserving ex
 - governance model
 - KPI dashboard
 - validation template
+
+## Self-Healing Layers
+
+| Layer | Question | Artifact |
+| --- | --- | --- |
+| Detection | What triggered the response? | Event correlation model |
+| Decision | Is automation allowed? | Automation governance |
+| Remediation | What action will be taken? | Remediation workflow |
+| Validation | Did recovery succeed? | Validation template |
+| Learning | What should improve next? | KPI dashboard / research notes |
+
+## Decision Rule
+
+If an automated recovery action cannot be explained, reversed where practical, and validated, it should remain behind a human review step.

@@ -72,3 +72,12 @@ If a page does not help someone diagnose, decide, or validate recovery, move the
 | Prepare a remediation path | Auto-Remediation Playbook |
 | Validate recovery | Remediation Validation Template |
 | Measure improvement | Self-Healing KPI Dashboard |
+
+## Shortcut View
+
+| Need | Best Starting Point |
+| --- | --- |
+| Decide what to automate | Automation Governance |
+| Prepare a remediation path | Auto-Remediation Playbook |
+| Validate recovery | Remediation Validation Template |
+| Measure improvement | Self-Healing KPI Dashboard |
